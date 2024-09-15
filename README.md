@@ -14,6 +14,9 @@ To build a house rent prediction system, we need data based on the factors affec
 - Tenant Preferred: Type of Tenant Preferred by the Owner or Agent.
 - Bathroom: Number of Bathrooms.
 
+## Neural Network Model 
+- **Keras Sequential Model**
+- **Dense and LSTM layers**
 ## Prediction Example
 Enter House Details to Predict Rent
 Number of BHK(1-6):  1
