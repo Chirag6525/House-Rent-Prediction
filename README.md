@@ -17,20 +17,18 @@ To build a house rent prediction system, we need data based on the factors affec
 ## Neural Network Model 
 - **Keras Sequential Model**
 - **Dense and LSTM layers**
+
 ## Prediction Example
+
 Enter House Details to Predict Rent
-Number of BHK(1-6):  1
-Size of the House(10-8000):  1000
-Area Type (Super Area = 1, Carpet Area = 2, Built Area = 3):  3
-Mumbai:4000
-Chennai:6000
-Bangalore:5600
-Hyderabad: 5000
-Delhi:1100
-Kolkata:7000
-Pin Code of the City:  7000
-Furnishing Status of the House (Unfurnished = 0, Semi-Furnished = 1, Furnished = 2):  0
-Tenant Type (Bachelors = 1, Bachelors/Family = 2, Only Family = 3):  2
-Number of bathrooms(1-10):  1
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 29ms/step
-Predicted House Price =  [[22519.922]]
+
+- **Number of BHK (1-6)**: 1
+- **Size of the House (10-8000)**: 1000
+- **Area Type** (Super Area = 1, Carpet Area = 2, Built Area = 3): 3
+- **City Codes**: **Mumbai**: 4000 **Chennai**: 6000 **Bangalore**: 5600 **Hyderabad**: 5000 **Delhi**: 1100 **Kolkata**: 7000
+- **Pin Code of the City**: 7000
+- **Furnishing Status of the House** (Unfurnished = 0, Semi-Furnished = 1, Furnished = 2): 0
+- **Tenant Type** (Bachelors = 1, Bachelors/Family = 2, Only Family = 3): 2
+- **Number of bathrooms (1-10)**: 1
+
+- **Predicted House Price** = `[[22519.922]]`
